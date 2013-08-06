@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_login" 
+    >
+    
+    <!-- password -->
+	<EditText 
+	    android:id="@+id/txtPass"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/hint_password"
+	    android:inputType="text"
+	    />   
+    <!-- first name -->
+	<EditText 
+	    android:id="@+id/txtFirstName"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/hint_firstname"
+	    android:inputType="textPersonName"
+	    />
+	<!-- last name -->
+	<EditText 
+	    android:id="@+id/txtLastName"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/hint_lastname"
+	    android:inputType="textPersonName"
+	    />
+	<!-- phone -->
+	<EditText 
+	    android:id="@+id/txtPhone"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/hint_phone"
+	    android:inputType="phone"
+	    />
+	<!-- salary -->
+	<EditText 
+	    android:id="@+id/txtSalary"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/hint_salary"
+	    android:inputType="numberDecimal"
+	    />
+	<!-- departmentID -->
+	<EditText 
+	    android:id="@+id/txtDepartmentID"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/hint_departmentID"
+	    android:inputType="number"
+	    />
+	<!-- button ok -->
+		<Button 
+		    android:id="@+id/btnOk"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/btnOK"
+		    android:background="@drawable/btn_blue"
+		    style="@style/ButtonText"
+		    />
+		<!-- button reset -->
+		<Button 
+		    android:id="@+id/btnReset"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/btnReset"
+		    android:background="@drawable/btn_green"
+		    style="@style/ButtonText"
+		    />			
+</LinearLayout>

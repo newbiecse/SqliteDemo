@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/miSearch" android:title="@string/menu_search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/miAdd" android:title="@string/menu_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/miClear" android:title="@string/menu_clear"
+        android:icon="@android:drawable/ic_delete"
+        android:showAsAction="ifRoom|withText" />
+</menu>

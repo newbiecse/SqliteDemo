@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout
+              xmlns:android="http://schemas.android.com/apk/res/android"
+	          android:orientation="vertical"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:padding="10dip"
+	          android:background="@drawable/background_login"
+	          >
+	          <!--  ID Label -->
+	          <TextView android:layout_width="fill_parent"
+	              	android:layout_marginTop="30dip"
+	                android:layout_height="wrap_content"
+	                android:textColor="#ffffff"
+	                android:text="@string/lblID"
+	                />
+	          <EditText
+	              	android:id="@+id/log_ID" 
+	              	android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="5dip"
+	                android:layout_marginBottom="20dip"
+	                android:singleLine="true"
+	                android:inputType="number"
+	                android:paddingLeft="8dp"
+	                android:background="@drawable/txt_input"	                
+	                />
+	          <!--  Password Label -->
+	          <TextView 
+	              	android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:textColor="#ffffff"
+	                android:text="@string/lblPassword"
+	                />
+	          <EditText 
+	              	android:id="@+id/log_Password"
+	              	android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="5dip"
+	                android:layout_marginBottom="50dip"
+	                android:singleLine="true"
+	                android:inputType="textPassword"
+	                android:paddingLeft="8dp"
+	                android:background="@drawable/txt_input"
+	                />
+	          <!-- Login button -->
+	          <Button android:id="@+id/btnLogin"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/btn_red"
+	                style="@style/ButtonText"
+	                android:layout_marginTop="10dip"
+	                android:text="@string/btnLogin"
+	                />
+	          <!-- Link to Registration Screen -->
+	          <TextView android:id="@+id/link_to_sendAdmins"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="40dip"
+	                android:layout_marginBottom="40dip"
+	                android:text="@string/link_send_admins"
+	                android:gravity="center"
+	                android:textSize="20sp"
+	                android:textColor="#0b84aa"
+	                />
+ 
+		</LinearLayout>        

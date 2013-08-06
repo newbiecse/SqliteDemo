@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <!-- Registration Form -->
+        <LinearLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"  
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:padding="10dip"
+          android:background="@drawable/background_login"
+          >
+          <!-- mail to -->
+          <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="@string/lblMailTo"
+                />
+          <EditText android:id="@+id/txtTo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:layout_marginBottom="20dip"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/txt_white"
+                android:paddingLeft="8dp"
+                />
+          <!-- Subject Label -->
+          <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="@string/lblSubject"
+                />
+          <EditText android:id="@+id/txtSubject"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:layout_marginBottom="20dip"
+                android:inputType="textEmailSubject"
+                android:background="@drawable/txt_white"
+                android:paddingLeft="8dp"
+                />
+          <!-- Body Label -->
+          <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="@string/lblBody"
+                />
+          <EditText android:id="@+id/txtBody"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:minHeight="150dp"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/txt_white"
+                android:padding="2dp"
+                android:maxHeight="210dp"
+                />
+          <!-- Send mail Button -->
+          <Button android:id="@+id/btnSend"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/btn_red"
+                android:text="@string/btnSend"/>
+          <!-- Link to Login Screen -->
+          <TextView android:id="@+id/link_to_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="40dip"
+                android:text="@string/link_login"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#025f7c"/>
+ 
+        </LinearLayout>
+        <!-- Send mail Form Ends -->
